@@ -1,0 +1,149 @@
+//自定义动画
+//从哪个方向入场
+.inAnL{animation: inAnL 1s  both;}
+.inAnL-1{animation: inAnL 1s 1s both;}
+.inAnR{animation: inAnR 1s  both;}
+.inAnT{animation: inAnT 1s both;}
+.inAnB{animation: inAnB 1s  both;}
+.inAnB-2{animation: inAnB 1s 2s  both;}
+//从哪个方向出场
+.outAnL{animation: outAnL 1s ease both;}
+.outAnR{animation: outAnR 1s ease both;}
+.outAnT{animation: outAnT 1s ease both;}
+.outAnB{animation: outAnB 1s ease both;}
+.outAnB-7{animation: outAnB 1s 10s ease both;}
+
+@keyframes inAnL{
+    from{transform: translateX(-100%)}
+    to{transform: translateX(0%)}
+}
+@keyframes inAnR{
+    from{transform: translateX(100%)}
+    to{transform: translateX(0%)}
+}
+@keyframes inAnT{
+    from{transform: translateY(-100%)}   
+    to{transform: translateY(0%)}
+}
+@keyframes inAnB{
+   from{transform: translateY(100%)}   
+    to{transform: translateY(0%)}
+}
+
+@keyframes outAnL{
+    from{transform: translateX(0%)}   
+    to{transform: translateX(-100%)}
+}
+@keyframes outAnR{
+    from{transform: translateX(0%)}   
+    to{transform: translateX(100%)}
+}
+@keyframes outAnT{
+    from{transform: translateY(0%)}   
+    to{transform: translateY(-100%)}
+}
+@keyframes outAnB{
+    from{transform: translateY(0%)}   
+    to{transform: translateY(100%)}
+}
+
+
+
+//入场动画,距离较长4屏
+.inAnLlong-1{animation: inAnLlong 1s 1s both;}
+.inAnLlong-2{animation: inAnLlong 1s 1.3s both;}
+.inAnLlong-3{animation: inAnLlong 1s 2s both;}
+.inAnLlong-4{animation: inAnLlong 1s 2.3s both;}
+.inAnLlong-5{animation: inAnLlong 1s 3s both;}
+.inAnLlong-6{animation: inAnLlong 1s 3.3s both;}
+@keyframes inAnLlong{
+    from{transform: translateX(-200%)}
+    to{transform: translateX(0%)}
+}
+
+//第5屏
+.inAnBshow{animation: inAnBshow 1s 1s  both;}
+.inAnBshow-2{animation: inAnBshow 1s 1.3s  both;}
+.inAnBshow-3{animation: inAnBshow 1s 2s  both;}
+.inAnBshow-4{animation: inAnBshow 1s 2.5s  both;}
+@keyframes inAnBshow{
+    from{transform: translateY(100%); opacity: 0}
+    to{transform: translateY(0%); opacity: 1}
+}
+
+
+//第6屏
+.inAnR6{animation: inAnR6 1s 1s  both;}
+.inAnR6-2{animation: inAnR6 1s 1.2s  both;}
+.inAnR6-3{animation: inAnR6 1s 2s  both;}
+.inAnR6-4{animation: inAnR6 1s 3s both;}
+.inAnR6-5{animation: inAnR6 1s 3.1s both;}
+.inAnR6-6{animation: inAnR6 1s 4s both;}
+.inAnR6-7{animation: inAnR6 1s 4.1s both;}
+@keyframes inAnR6{
+    from{transform: translateX(100%)}
+    to{transform: translateX(0%)}
+}
+
+
+//隐藏
+.noShow{opacity: 0;}
+.noShow-7{animation: noShow 1s 7s ease both;}
+@keyframes noShow{
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
+
+
+//显示
+.show{animation: show 1s ease both;}
+.show-2{animation: show 1s 2s ease both;}
+.show-3{animation: show 1s 3s ease both;}
+.show-4{animation: show 1s 4s ease both;}
+.show-5{animation: show 1s 5s ease both;}
+.show-6{animation: show 1s 6s ease both;}
+.show-7{animation: show 1s 7s ease both;}
+.show-8{animation: show 1s 8s ease both;}
+.show-9{animation: show 1s 9s ease both;}
+.show-10{animation: show 1s 10s ease both;}
+.show-11{animation: show 1s 11s ease both;}
+@keyframes show{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+
+
+//第2页动画
+.img2An{animation: img2An 2s 1s ease both;}
+@keyframes img2An{
+    from{transform: translateX(0%)}
+    to{transform: translateX(-40%)}
+}
+.inAnR2{animation: inAnR2 linear 1.5s 2s both;}
+@keyframes inAnR2{
+    0%{transform: translateX(140%) rotate(-3deg)}
+    66%{transform: translateX(10%) rotate(-3deg)}
+    77%{transform: translateX(0%) rotate(-3deg)}
+    88%{transform: translateX(20%) rotate(-3deg)}
+    100%{transform: translateX(10%) rotate(-3deg)}
+}
+.inAnR3{animation: inAnR3 1s 3.5s both;}
+@keyframes inAnR3{
+    from{transform: translateX(140%)}
+    to{transform: translateX(0%)}
+}
+.scaleAn{animation: scaleAn 5s 3s linear both infinite;}
+@keyframes scaleAn{
+    from{transform: rotate(0deg)}
+    to{transform: rotate(360deg)}
+}
+
+
+
+
+
+
+
+
+

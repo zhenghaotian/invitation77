@@ -1,0 +1,429 @@
+html,
+body,
+ul,
+li,
+div {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+ul {
+  list-style: none;
+}
+.hidden {
+  display: none;
+}
+#wrap {
+  width: 16rem;
+  height: 100%;
+  overflow: hidden;
+}
+#wrap ul {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+#wrap ul li {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+#wrap ul li:nth-child(1) {
+  background: url(../images/8_1.jpg);
+}
+#wrap ul li:nth-child(1) img {
+  width: 100%;
+  height: 100%;
+}
+#wrap ul li:nth-child(1) .img1-1 {
+  position: absolute;
+  z-index: 10;
+  top: 23%;
+  left: -18%;
+  transform: rotate(140deg);
+  width: 40%;
+  height: 25%;
+}
+#wrap ul li:nth-child(1) .img1-2 {
+  position: absolute;
+  z-index: 10;
+  top: 33%;
+  left: -15%;
+  transform: rotate(125deg);
+  width: 40%;
+  height: 25%;
+}
+#wrap ul li:nth-child(1) .img1-3 {
+  position: absolute;
+  z-index: 10;
+  left: 27%;
+  bottom: -10%;
+  transform: rotate(90deg);
+  width: 45%;
+  height: 25%;
+}
+#wrap ul li:nth-child(1) .img1-4 {
+  position: absolute;
+  z-index: 10;
+  right: 0%;
+  bottom: -4%;
+  width: 45%;
+  height: 25%;
+}
+#wrap ul li:nth-child(1) .img1-5 {
+  position: absolute;
+  z-index: 10;
+  right: -10%;
+  bottom: 10%;
+  transform: rotate(-130deg);
+  width: 40%;
+  height: 20%;
+}
+#wrap ul li:nth-child(1) .img1-6 {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  bottom: 5%;
+  right: 5%;
+  width: 90%;
+  height: 90%;
+}
+#wrap ul li:nth-child(1) .img1-7 {
+  position: absolute;
+  top: 7%;
+  left: 9%;
+  bottom: 7%;
+  right: 9%;
+  width: 82%;
+  height: 86%;
+}
+#wrap ul li:nth-child(1) .img1-8 {
+  position: absolute;
+  left: 25%;
+  width: 50%;
+  height: 20%;
+  top: 14%;
+}
+#wrap ul li:nth-child(1) .img1-9 {
+  position: absolute;
+  bottom: 38%;
+  left: 25%;
+  width: 50%;
+  height: 10%;
+}
+#wrap ul li:nth-child(1) .img1-10 {
+  position: absolute;
+  bottom: 30%;
+  left: 25%;
+  width: 50%;
+  height: 8%;
+}
+#wrap ul li:nth-child(2) .img2-1 {
+  position: absolute;
+  left: 0;
+  width: 240%;
+  height: 106%;
+}
+#wrap ul li:nth-child(2) .div2-2 {
+  position: absolute;
+  width: 60%;
+  height: 106%;
+  left: 50%;
+  background-color: #23194d;
+  transform: rotate(-20deg);
+}
+#wrap ul li:nth-child(2) .div2-3 {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  left: 60%;
+  top: 20%;
+  background-color: #23194d;
+  font-size: 12px;
+  color: rgba(222, 184, 129, 0.843137);
+}
+#wrap ul li:nth-child(2) .div2-3 span {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  color: rgba(222, 184, 129, 0.843137);
+}
+#wrap ul li:nth-child(2) .div2-3 img {
+  position: absolute;
+  bottom: -200%;
+  width: 300%;
+  height: 200%;
+}
+#wrap ul li:nth-child(3) {
+  background: url(../images/santubeijing.png) no-repeat;
+}
+#wrap ul li:nth-child(3) .img3-1 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+#wrap ul li:nth-child(3) #span2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform: translateY(100%);
+  color: rgba(222, 184, 129, 0.843137);
+  width: 40%;
+  height: 15%;
+}
+#wrap ul li:nth-child(3) .div3-3 {
+  text-align: center;
+  font-size: 64px;
+  color: #ab7c44;
+}
+#wrap ul li:nth-child(3) .div3-4 {
+  margin-bottom: 15%;
+  font-size: 20px;
+  text-align: center;
+  color: #021578;
+}
+#wrap ul li:nth-child(3) .div3-5 {
+  font-size: 20px;
+  text-align: center;
+  font-family: fangzheng_sht;
+  color: #021578;
+}
+#wrap ul li:nth-child(3) .img3-6 {
+  margin: .5rem 0 0 2.7rem;
+  width: 70%;
+}
+#wrap ul li:nth-child(3) .div3-7 {
+  font-size: 20px;
+  text-align: center;
+  font-family: fangzheng_fst;
+  color: #021578;
+}
+#wrap ul li:nth-child(3) .img3-8 {
+  width: 30%;
+  margin: 0 0 0 5.5rem;
+}
+#wrap ul li:nth-child(3) .img3-9 {
+  position: absolute;
+  top: 120px;
+  left: 10px;
+  width: 70%;
+  margin-left: 2rem;
+}
+#wrap ul li:nth-child(4) {
+  background: url(../images/santubeijing.png) no-repeat;
+}
+#wrap ul li:nth-child(4) .img4-1 {
+  width: 90%;
+  height: 50%;
+  background: url("../images/4-1.png") no-repeat;
+  background-size: 120%;
+  background-position: -20px 80px;
+  margin-left: 5%;
+  margin-top: 90%;
+}
+#wrap ul li:nth-child(4) p {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  font-size: 20px;
+  color: #021578;
+}
+#wrap ul li:nth-child(4) p span {
+  font-weight: bold;
+}
+#wrap ul li:nth-child(4) .p4-3 {
+  margin-top: 50px;
+}
+#wrap ul li:nth-child(4) .p4-4 {
+  margin-top: 120px;
+}
+#wrap ul li:nth-child(4) .p4-5 {
+  margin-top: 150px;
+  color: #ab7c44;
+  font-size: 32px;
+}
+#wrap ul li:nth-child(4) .p4-6 {
+  margin-top: 240px;
+}
+#wrap ul li:nth-child(4) .p4-7 {
+  margin-top: 270px;
+}
+#wrap ul li:nth-child(5) {
+  background: url(../images/santubeijing.png) no-repeat;
+}
+#wrap ul li:nth-child(5) .img5-1 {
+  width: 100%;
+  margin-top: 90%;
+}
+#wrap ul li:nth-child(5) p {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  color: #021578;
+}
+#wrap ul li:nth-child(5) p span {
+  font-weight: bold;
+}
+#wrap ul li:nth-child(5) .p5-3 {
+  margin-top: 50px;
+}
+#wrap ul li:nth-child(5) .p5-4 {
+  margin-top: 130px;
+  color: #ab7c44;
+  font-size: 32px;
+}
+#wrap ul li:nth-child(5) .p5-5 {
+  margin-top: 200px;
+}
+#wrap ul li:nth-child(6) {
+  background: url(../images/santubeijing.png) no-repeat;
+}
+#wrap ul li:nth-child(6) .img6-1 {
+  width: 80%;
+  height: 80%;
+  margin-top: 40%;
+  margin-left: -15%;
+}
+#wrap ul li:nth-child(6) p {
+  position: absolute;
+  top: 0;
+  text-align: right;
+  font-size: 20px;
+  color: #021578;
+  width: 85%;
+}
+#wrap ul li:nth-child(6) .p6-2 {
+  margin-top: 30px;
+}
+#wrap ul li:nth-child(6) .p6-3 {
+  margin-top: 70px;
+}
+#wrap ul li:nth-child(6) .p6-4 {
+  margin-top: 130px;
+  color: #ab7c44;
+  font-size: 32px;
+}
+#wrap ul li:nth-child(6) .p6-5 {
+  margin-top: 220px;
+}
+#wrap ul li:nth-child(6) .p6-6 {
+  margin-top: 250px;
+  font-size: 24px;
+  font-weight: bold;
+}
+#wrap ul li:nth-child(6) .p6-7 {
+  margin-top: 290px;
+}
+#wrap ul li:nth-child(6) .p6-8 {
+  margin-top: 330px;
+  font-size: 24px;
+  font-weight: bold;
+}
+#wrap ul li:nth-child(7) {
+  background: url(../images/beijing_8.png);
+}
+#wrap ul li:nth-child(7) .img1-1 {
+  position: absolute;
+  z-index: 10;
+  top: 23%;
+  left: -18%;
+  transform: rotate(140deg);
+  width: 40%;
+  height: 25%;
+}
+#wrap ul li:nth-child(7) .img1-2 {
+  position: absolute;
+  z-index: 10;
+  top: 33%;
+  left: -15%;
+  transform: rotate(125deg);
+  width: 40%;
+  height: 25%;
+}
+#wrap ul li:nth-child(7) .img1-3 {
+  position: absolute;
+  z-index: 10;
+  left: 27%;
+  bottom: -10%;
+  transform: rotate(90deg);
+  width: 45%;
+  height: 25%;
+}
+#wrap ul li:nth-child(7) .img1-4 {
+  position: absolute;
+  z-index: 10;
+  right: 0%;
+  bottom: -4%;
+  width: 45%;
+  height: 25%;
+}
+#wrap ul li:nth-child(7) .img1-5 {
+  position: absolute;
+  z-index: 10;
+  right: -10%;
+  bottom: 10%;
+  transform: rotate(-130deg);
+  width: 40%;
+  height: 20%;
+}
+#wrap ul li:nth-child(7) .img1-6 {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  bottom: 5%;
+  right: 5%;
+  width: 90%;
+  height: 90%;
+}
+#wrap ul li:nth-child(7) .img1-7 {
+  position: absolute;
+  top: 7%;
+  left: 9%;
+  bottom: 7%;
+  right: 9%;
+  width: 82%;
+  height: 86%;
+}
+#wrap ul li:nth-child(7) .img4-1 {
+  position: absolute;
+  z-index: 11;
+  left: 4rem;
+  top: 3rem;
+}
+#wrap ul li:nth-child(7) .img4-2 {
+  position: absolute;
+  z-index: 11;
+  left: 3rem;
+  top: 9rem;
+}
+#wrap ul li:nth-child(7) .img4-3 {
+  position: absolute;
+  z-index: 11;
+  left: 3.5rem;
+  top: 15rem;
+  width: 10rem;
+}
+#wrap ul li:nth-child(7) .div4-4 {
+  position: absolute;
+  z-index: 11;
+  left: 2.5rem;
+  top: 20.5rem;
+  color: white;
+  font-size: 0.7rem;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+	</head>
+	<body>
+		<div id="test"></div>
+		
+		<script type="text/javascript">
+			var test = document.querySelector('#test');
+			var msg = 'aaaaaaaaaaaaaaaaa';
+			
+			printWord(test, msg)
+			
+			function printWord(node,msg){
+				var i=1;
+				var t;
+				t = setInterval(function(){
+					var len=msg.length;  
+				    var msg1=msg.substring(0,i);  
+				    node.innerHTML=msg1;  
+				    if(i==len){
+				    	clearInterval(t)
+				    }
+				    else  
+				        i++;  
+				},200)
+			}
+			
+			
+		</script>
+	</body>
+</html>
